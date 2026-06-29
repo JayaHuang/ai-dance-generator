@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Dance Generator — Free AI Twerk & Dance Image Creator</title>
+  <meta name="description" content="Generate stunning AI dance images for free. Create twerk, hip-hop, ballet, and salsa dance visuals with our AI dance generator. No signup required.">
+  <meta name="keywords" content="AI dance generator, AI twerk generator, AI hip hop generator, AI ballet generator, free AI dance images, AI dance creator">
+  <link rel="canonical" href="https://aidancegen.com/">
+  <meta property="og:title" content="AI Dance Generator — Free AI Twerk & Dance Image Creator">
+  <meta property="og:description" content="Generate stunning AI dance images for free. Create twerk, hip-hop, ballet, and salsa dance visuals.">
+  <meta property="og:url" content="https://aidancegen.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://aidancegen.com/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AI Dance Generator — Free AI Twerk & Dance Image Creator">
+  <meta name="twitter:description" content="Generate stunning AI dance images for free. No signup required.">
+  <meta name="twitter:image" content="https://aidancegen.com/og-image.jpg">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "AI Dance Generator",
+    "url": "https://aidancegen.com/",
+    "description": "Generate stunning AI dance images for free. Create twerk, hip-hop, ballet, and salsa dance visuals with our AI dance generator.",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the AI Dance Generator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI Dance Generator is a free online tool that uses artificial intelligence to create stunning dance images. You can generate visuals of various dance styles including twerk, hip-hop, ballet, salsa, and more by simply entering a description."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is the AI Dance Generator free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, our AI Dance Generator is completely free to use. There is no signup required, no credit card needed, and no usage limits. You can generate as many AI dance images as you want."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What dance styles are supported?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our generator supports a wide range of dance styles including twerk, hip-hop, ballet, salsa, contemporary, breakdance, belly dance, and more. You can also enter custom descriptions for any dance style you imagine."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I download the generated dance images?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely! Once your AI dance image is generated, you can download it directly to your device in high quality. All images are free for personal use."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an account to use the AI Dance Generator?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No account or signup is required. Simply visit the website, enter your dance description, select a style, and generate your image instantly."
+        }
+      }
+    ]
+  }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="shared/base.css">
+  <link rel="stylesheet" href="shared/layout.css">
+  <link rel="stylesheet" href="shared/components.css">
+  <style>
+    .generator-area { background: linear-gradient(135deg, var(--primary-light) 0%, var(--bg-secondary) 100%); }
+    .image-preview { min-height: 320px; }
+    .style-select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23475569' viewBox='0 0 16 16'%3E%3Cpath d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 0.75rem center; padding-right: 2.5rem; appearance: none; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">AI Dance Generator</a>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Generator Section -->
+    <section class="generator-area py-16">
+      <div class="container">
+        <div class="text-center mb-10">
+          <h1 class="text-4xl md:text-5xl font-bold mb-4">AI Dance Generator</h1>
+          <p class="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">Create stunning AI dance images instantly. Free, no signup required.</p>
+        </div>
+
+        <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg p-6 md:p-8">
+          <div class="mb-5">
+            <label for="dance-desc" class="block text-sm font-semibold mb-2">Describe your dance scene</label>
+            <input type="text" id="dance-desc" class="form-input w-full" placeholder="e.g., a girl dancing hip hop in neon lights" value="a girl dancing hip hop, full body, high quality">
+          </div>
+
+          <div class="mb-5">
+            <label for="dance-style" class="block text-sm font-semibold mb-2">Dance Style</label>
+            <select id="dance-style" class="form-input w-full style-select">
+              <option value="twerk">Twerk</option>
+              <option value="hip-hop" selected>Hip-Hop</option>
+              <option value="ballet">Ballet</option>
+              <option value="salsa">Salsa</option>
+              <option value="contemporary">Contemporary</option>
+              <option value="breakdance">Breakdance</option>
+              <option value="belly-dance">Belly Dance</option>
+              <option value="custom">Custom (use description only)</option>
+            </select>
+          </div>
+
+          <button id="generate-btn" class="btn btn-primary w-full text-lg py-3">Generate Dance Image</button>
+
+          <div id="result-area" class="mt-8 hidden">
+            <div class="image-preview rounded-xl bg-[var(--bg-secondary)] flex items-center justify-center overflow-hidden">
+              <img id="generated-image" src="" alt="Generated AI dance image" class="max-w-full h-auto hidden">
+              <div id="loading" class="py-20 text-[var(--text-secondary)]">Generating your dance image... <span class="inline-block animate-spin ml-2">⟳</span></div>
+            </div>
+            <div class="mt-4 flex gap-3 justify-center">
+              <a id="download-btn" href="#" download="ai-dance.png" class="btn btn-secondary">Download Image</a>
+              <button id="regenerate-btn" class="btn btn-primary">Generate Another</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEO Content -->
+    <section class="py-16 bg-white">
+      <div class="container max-w-4xl">
+        <h2 class="text-3xl font-bold mb-6">What is AI Dance Generator?</h2>
+        <p class="mb-4 text-[var(--text-secondary)] leading-relaxed">AI Dance Generator is a powerful, free online tool that lets you create stunning dance images using artificial intelligence. Whether you need visuals for social media, creative projects, or personal inspiration, our tool generates high-quality dance images in seconds. Simply describe the scene, pick a dance style, and let AI do the rest.</p>
+        <p class="mb-4 text-[var(--text-secondary)] leading-relaxed">The tool supports a wide variety of dance styles including twerk, hip-hop, ballet, salsa, contemporary, breakdance, and belly dance. You can also enter fully custom descriptions to create unique dance visuals that match your exact vision. All generated images are free to download and use for personal projects.</p>
+        <p class="mb-4 text-[var(--text-secondary)] leading-relaxed">Using the AI Dance Generator is incredibly simple. Enter a description of the dancer and scene, select your preferred style from the dropdown menu, and click the generate button. Within seconds, Pollinations AI will create a unique image based on your input. There's no signup required, no API key needed, and no limits on how many images you can create.</p>
+        <p class="mb-4 text-[var(--text-secondary)] leading-relaxed">Our generator is perfect for content creators, dancers, choreographers, social media managers, and anyone who needs eye-catching dance visuals. The AI understands dance poses, costumes, lighting, and atmosphere, producing images that look natural and dynamic. Whether you want a ballet dancer in a sunlit studio or a hip-hop crew under neon lights, the AI delivers impressive results every time.</p>
+        <p class="text-[var(--text-secondary)] leading-relaxed">Best of all, the AI Dance Generator runs entirely in your browser. Your descriptions are sent directly to Pollinations AI for image generation, and no personal data is stored on our servers. It's fast, private, and completely free. Try it now and see what amazing dance images you can create!</p>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-[var(--bg-secondary)]">
+      <div class="container max-w-4xl">
+        <h2 class="text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <details class="bg-white rounded-lg shadow-sm p-5">
+            <summary class="font-semibold cursor-pointer">What is the AI Dance Generator?</summary>
+            <p class="mt-3 text-[var(--text-secondary)]">AI Dance Generator is a free online tool that uses artificial intelligence to create stunning dance images. You can generate visuals of various dance styles including twerk, hip-hop, ballet, salsa, and more by simply entering a description.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow-sm p-5">
+            <summary class="font-semibold cursor-pointer">Is the AI Dance Generator free to use?</summary>
+            <p class="mt-3 text-[var(--text-secondary)]">Yes, our AI Dance Generator is completely free to use. There is no signup required, no credit card needed, and no usage limits. You can generate as many AI dance images as you want.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow-sm p-5">
+            <summary class="font-semibold cursor-pointer">What dance styles are supported?</summary>
+            <p class="mt-3 text-[var(--text-secondary)]">Our generator supports a wide range of dance styles including twerk, hip-hop, ballet, salsa, contemporary, breakdance, belly dance, and more. You can also enter custom descriptions for any dance style you imagine.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow-sm p-5">
+            <summary class="font-semibold cursor-pointer">Can I download the generated dance images?</summary>
+            <p class="mt-3 text-[var(--text-secondary)]">Absolutely! Once your AI dance image is generated, you can download it directly to your device in high quality. All images are free for personal use.</p>
+          </details>
+          <details class="bg-white rounded-lg shadow-sm p-5">
+            <summary class="font-semibold cursor-pointer">Do I need an account to use the AI Dance Generator?</summary>
+            <p class="mt-3 text-[var(--text-secondary)]">No account or signup is required. Simply visit the website, enter your dance description, select a style, and generate your image instantly.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 AI Dance Generator. All rights reserved.</p>
+      <nav class="footer-nav">
+        <a href="/about">About</a>
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      const generateBtn = document.getElementById('generate-btn');
+      const regenerateBtn = document.getElementById('regenerate-btn');
+      const resultArea = document.getElementById('result-area');
+      const generatedImage = document.getElementById('generated-image');
+      const loading = document.getElementById('loading');
+      const downloadBtn = document.getElementById('download-btn');
+      const descInput = document.getElementById('dance-desc');
+      const styleSelect = document.getElementById('dance-style');
+
+      function generate() {
+        const desc = descInput.value.trim() || 'a girl dancing hip hop';
+        const style = styleSelect.value;
+        let prompt = desc;
+        if (style !== 'custom') {
+          prompt = desc + ', ' + style.replace('-', ' ') + ' dance style, full body, high quality, detailed';
+        }
+        const imageUrl = 'https://image.pollinations.ai/prompt/' + encodeURIComponent(prompt) + '?width=512&height=768&nologo=true&seed=' + Math.floor(Math.random() * 100000);
+
+        resultArea.classList.remove('hidden');
+        generatedImage.classList.add('hidden');
+        loading.classList.remove('hidden');
+        generatedImage.src = imageUrl;
+        generatedImage.onload = function() {
+          loading.classList.add('hidden');
+          generatedImage.classList.remove('hidden');
+          downloadBtn.href = imageUrl;
+        };
+        generatedImage.onerror = function() {
+          loading.textContent = 'Error generating image. Please try again.';
+        };
+        resultArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      generateBtn.addEventListener('click', generate);
+      regenerateBtn.addEventListener('click', generate);
+    })();
+  </script>
+</body>
+</html>
